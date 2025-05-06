@@ -28,5 +28,31 @@ For my deep insight into the data analyst job market, I harnessed the power of s
   collaboration and project tracking.
 
 # The Analysis
+Each query for this project aimed at investigating specific aspects of the data analyst job market. Here is how I aproached each question: 
+### 1. Top Paying Data Analyst Jobs
+To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field. 
+```
+Select
+    job_id,
+    job_title,
+    job_location,
+    job_schedule_type,
+    salary_year_avg,
+    name as company_name,
+    job_posted_date 
+From
+    job_postings_fact
+Left join company_dim
+    on job_postings_fact.company_id = company_dim.company_id
+Where
+    job_title_short = 'Data Analyst'
+    and job_location = 'Anywhere'
+    and salary_year_avg is not Null
+
+Order BY
+    salary_year_avg desc
+Limit (10);
+```
+
 # What I Learned
 # Conclusions
