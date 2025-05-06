@@ -61,5 +61,10 @@ Here is a breakdown of top data analyst jobs in 2023:
 
 - **Leading tech and finance companies dominate:** Employers offering the highest salaries include major players like Meta, AT&T, Pinterest, and UCLA Health, suggesting that organizations with deep data infrastructure or customer insights needs value data analysts as strategic assets.
 
+
+![Top Paying Roles](https://github.com/user-attachments/assets/cd6c94e1-d163-49ea-b6e0-078689eb2455)
+
+*Bar graph showing a visualization of the salary of the top 10 data analyst roles; ChatGPT generated this graph from my SQL query results*
+
 # What I Learned
 # Conclusions
