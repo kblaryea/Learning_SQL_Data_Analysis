@@ -67,4 +67,20 @@ Here is a breakdown of top data analyst jobs in 2023:
 *Bar graph showing a visualization of the salary of the top 10 data analyst roles; ChatGPT generated this graph from my SQL query results*
 
 # What I Learned
+
+**1. Data Manipulation and Querying:**
+I have mastered the ability to retrieve, filter, and manipulate data using SQL queries.
+Skills like using SELECT, WHERE, GROUP BY, HAVING, and ORDER BY have enabled you to extract meaningful insights from raw data.
+I've also learned advanced techniques like CASE statements, JOINs, and subqueries to handle complex data relationships.
+
+**2. Data Analysis and Aggregation:**
+I've learned how to analyze data by aggregating it using functions like COUNT, AVG, SUM, and ROUND.
+Techniques like creating buckets, categorizing data, and calculating metrics (e.g., demand and average salary) have helped me derive actionable insights.
+I’ve explored how to use CTEs (Common Table Expressions) to structure and simplify complex queries for better readability and reusability.
+
+**3. Problem-Solving with Relational Databases:**
+I’ve developed the ability to solve real-world problems, such as identifying high-demand skills, categorizing companies, and analyzing job postings.
+I’ve learned to work with relational database concepts, including table relationships (JOIN, LEFT JOIN, etc.), and how to combine data from multiple tables effectively.
+Debugging and optimizing queries have taught you how to troubleshoot and refine your code for accuracy and performance.
+
 # Conclusions
