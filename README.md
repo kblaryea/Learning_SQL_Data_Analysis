@@ -31,7 +31,7 @@ For my deep insight into the data analyst job market, I harnessed the power of s
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here is how I aproached each question: 
 ### 1. Top Paying Data Analyst Jobs
 To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field. 
-```
+```sql
 Select
     job_id,
     job_title,
@@ -53,6 +53,13 @@ Order BY
     salary_year_avg desc
 Limit (10);
 ```
+
+Here is a breakdown of top data analyst jobs in 2023:
+- **High-paying roles span various seniority levels:** While director and principal roles like Director of Analytics at Meta ($336K) and Principal Data Analyst at SmartAsset ($205K–$186K) are expectedly high-paying, even some mid-level Data Analyst positions, such as one at Mantys, report unusually high salaries ($650K), likely due to niche industry focus or equity-heavy compensation.
+
+- **Remote flexibility is common among top-paying jobs:** All listed roles are open to remote or hybrid arrangements, indicating that high compensation is increasingly compatible with flexible work setups in the data analytics field.
+
+- **Leading tech and finance companies dominate:** Employers offering the highest salaries include major players like Meta, AT&T, Pinterest, and UCLA Health, suggesting that organizations with deep data infrastructure or customer insights needs value data analysts as strategic assets.
 
 # What I Learned
 # Conclusions
